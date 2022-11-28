@@ -1,0 +1,82 @@
+body{
+  background-color: white;
+  color: rgb(176, 175, 175);
+}
+
+.top{
+  display:grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr auto;
+}
+
+h3{
+  text-align: center;
+  margin:20px;
+  /*margin-left:50%;*/
+  margin-right:80%;
+  color:white;
+  background-color: #1890ff;
+  border-radius: 5px;
+  border: 2px solid #1890ff;
+}
+.search{
+  width:30vw;
+  float:right;
+  margin:10px;
+}
+.title, .due{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+
+.add{
+  display:flex;
+  justify-content: center;
+}
+
+/*.value ,.desc{
+  font-weight: bold;
+}*/
+
+.ant-input{
+  color: rgb(191 191 191);
+}
+
+.ant-table-thead>tr>th {
+  position: relative;
+  color: white;
+  font-weight: 500;
+  text-align: left;
+  background: #1890ff;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background .3s ease;
+}
+
+.desc{
+  /* background-color: black; */
+  width:50vw;
+  margin:10px auto;
+  
+}
+
+.container{
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.input, .duedate{
+  margin:10px;
+  /* padding:2px; */
+}
+
+.button{
+  text-align: center;
+}
+
+.editable-row .ant-form-item-explain {
+  position: absolute;
+  top: 100%;
+  font-size: 12px;
+}
