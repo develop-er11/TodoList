@@ -1,7 +1,7 @@
 {
   "name": "todo",
   "version": "0.1.0",
-  "homepage": "https://develop-er11.github.io/TodoList.github.io/",
+  "homepage": "https://develop-er11.github.io/TodoList/",
   "private": true,
   "dependencies": {
     "@ant-design/pro-components": "^1.1.8",
