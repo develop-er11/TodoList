@@ -13,7 +13,7 @@ const App = ()=>{
     {
       id:1,
       title: "Task1",
-      timestamp: "Thu Jul 07 2022 14:48:41 IST",
+      timestamp: "Thu Jul 07 2022 14:48:41 GMT+0530 (India Standard Time)",
       description: "Submitting File",
       duedate: "2022-07-11",
       status: "Working",
@@ -23,7 +23,7 @@ const App = ()=>{
     {
       id:2,
       title: "Task2",
-      timestamp: "Thu Jul 07 2022 14:49:03 IST",
+      timestamp: "Thu Jul 07 2022 14:49:03 GMT+0530 (India Standard Time)",
       description: "Submitting Assignment",
       duedate: "2022-07-10",
       status: "Working",
@@ -33,7 +33,7 @@ const App = ()=>{
     {
       id:3,
       title: "Task3",
-      timestamp: "Thu Jul 07 2022 14:49:30 IST",
+      timestamp: "Thu Jul 07 2022 14:49:30 GMT+0530 (India Standard Time)",
       description: "Submitting Assignment",
       duedate: "2022-07-13",
       status: "Overdue",
@@ -43,7 +43,7 @@ const App = ()=>{
     {
       id:4,
       title: "Task4",
-      timestamp: "Thu Jul 07 2022 14:50:01 IST",
+      timestamp: "Thu Jul 07 2022 14:50:01 GMT+0530 (India Standard Time)",
       description: "Submitting Assignment",
       duedate: "2022-07-13",
       status: "Open",
@@ -53,7 +53,7 @@ const App = ()=>{
     {
       id:5,
       title: "Task5",
-      timestamp: "Thu Jul 07 2022 14:50:31 IST",
+      timestamp: "Thu Jul 07 2022 14:50:31 GMT+0530 (India Standard Time)",
       description: "Submitting Assignment",
       duedate: "2022-07-14",
       status: "Done",
