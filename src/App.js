@@ -287,7 +287,7 @@ const App = ()=>{
     return (
       <div>
         <div className="top">
-          <h3 >To Do List</h3>
+         
           <div className="search">
         <Search placeholder="Search Title" id="searchBar" onSearch={onSearch} enterButton />
 
