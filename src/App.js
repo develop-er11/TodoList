@@ -314,6 +314,12 @@ const App = ()=>{
               <Input type="text" id="tags" placeholder='Enter Tag Names'></Input>
             </div>
           </div>
+          <div className='due'>
+            <label htmlFor="tags" className="value"> Tags </label>
+            <div className='duedate'>
+              <Input type="text" id="tags" placeholder='Enter Tag Names'></Input>
+            </div>
+          </div>
           <div className='container'>
            <label htmlFor="description" className="value">Description</label>
            <div className="desc" >
