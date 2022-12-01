@@ -314,14 +314,15 @@ const App = ()=>{
               <Input type="text" id="tags" placeholder='Enter Tag Names'></Input>
             </div>
           </div>
-        </div>
-        
-        <div className='container'>
-          <label htmlFor="description" className="value">Description</label>
-          <div className="desc" >
-            <TextArea type="text" id="description" rows={5} maxLength={1000}/>
+          <div className='container'>
+           <label htmlFor="description" className="value">Description</label>
+           <div className="desc" >
+            <Input type="text" id="description" rows={5} maxLength={1000} placeholder="Description"/></Input>
           </div>
         </div>
+        </div>
+        
+        
         <div className='button'>
         <Button type='primary'  onClick={AddTask} style={{margin:"10px"}}>Add Task</Button>
         </div>
