@@ -40,7 +40,7 @@ body{
   color: black;
   font-weight: 500;
   text-align: left;
-  background: #1890ff;
+  
   border-bottom: 1px solid #f0f0f0;
   transition: background .3s ease;
 }
